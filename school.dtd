@@ -1,0 +1,19 @@
+<!ELEMENT school (department+)>
+ 
+<!ELEMENT department (name, head, course+)>
+ 
+<!ELEMENT name (#PCDATA)>
+ 
+<!ELEMENT head (#PCDATA)>
+ 
+<!ELEMENT course (title, instructor, schedule)>
+ 
+<!ELEMENT title (#PCDATA)>
+ 
+<!ELEMENT instructor (#PCDATA)>
+ 
+<!ELEMENT schedule (day, time)>
+ 
+<!ELEMENT day (#PCDATA)>
+ 
+<!ELEMENT time (#PCDATA)>

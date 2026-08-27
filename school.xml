@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+ 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ 
+<school>
+    <department>
+        <name>Computer Science</name>
+        <head>Romeo Martinez</head>
+ 
+        <course>
+            <title>Introduction to Programming</title>
+            <instructor>Mr. Robert Aliaz</instructor>
+            <schedule>
+                <day>Monday</day>
+                <time>7:00 AM - 10:00 AM</time>
+            </schedule>
+        </course>
+ 
+        <course>
+            <title>Data Structures</title>
+            <instructor>Ms. Juliet Rufina</instructor>
+            <schedule>
+                <day>Wednesday</day>
+                <time>3:30 PM - 4:00 PM</time>
+            </schedule>
+        </course>
+    </department>
+ 
+    <department>
+        <name>Engineering</name>
+        <head>Mr. Johnray Salac</head>
+ 
+        <course>
+            <title>Engineering Mathematics</title>
+            <instructor>Mr. Jay Tolentino</instructor>
+            <schedule>
+                <day>Tuesday</day>
+                <time>8:00 AM - 10:00 AM</time>
+            </schedule>
+        </course>
+ 
+        <course>
+            <title>Engineering Mechanics</title>
+            <instructor>Ms. Maria Alexis</instructor>
+            <schedule>
+                <day>Thursday</day>
+                <time>9:00 AM - 11:00 AM</time>
+            </schedule>
+        </course>
+    </department>
+ 
+    <department>
+        <name>Humanities</name>
+        <head>Mr. John Arthuro</head>
+ 
+        <course>
+            <title>World Literature</title>
+            <instructor>Mr. Archie Ramirez </instructor>
+            <schedule>
+                <day>Monday</day>
+                <time>3:00 PM - 4:30 PM</time>
+            </schedule>
+        </course>
+ 
+        <course>
+            <title>Philosophy</title>
+            <instructor>Ms. Shia Alcantara</instructor>
+            <schedule>
+                <day>Friday</day>
+                <time>8:00 AM - 9:00 AM</time>
+            </schedule>
+        </course>
+    </department>
+</school>
